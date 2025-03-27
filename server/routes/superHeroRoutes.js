@@ -32,7 +32,7 @@ router.post('/', async (req, res) => {
     console.log('Incoming POST on /api/superheroes with data')
     console.log(req.body)
 
-    if (req.body.name && req.body.powers) {       
+    if (req.body) {       
         return res.send("created a hero")
     }
     else {
