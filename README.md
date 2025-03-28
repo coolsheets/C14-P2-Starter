@@ -7,3 +7,10 @@ cd server
 npm install
 npm start
 ```
+
+## Development
+```
+cd server
+npm install
+npm run dev
+```
